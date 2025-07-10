@@ -1,0 +1,133 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iw1LX37X9aRwtsiow" cm:version="1.8" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="i2QQe6UDRpvOiQw3v" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="i52hr_joH9kWVNaKO" cm:type="ps:string">testeeslFeatures</cm:constant>
+      </cm:property>
+      <cm:property cm:id="imHgkkdO6v707Betc" cm:type="ps:string" cm:fixed="true" cm:name="ps:author">
+        <cm:constant cm:id="inlai9aO2mOFKMxsO" cm:type="ps:string">leove</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iJz8sGur3ZmHh8uIv" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="ivfCKug8V9se_5V-B" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iCzWIMZYRZLJFYoj_" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="ifaqBDRRbp9fCYA9x" cm:type="ps:datetime">2025-07-08T03:49:43.167Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iR9FjbkNfzV1YVmIP" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iHkBsMzxkNSabRizS" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="inSk-jIxrQEElIWcF">
+    <cm:element cm:id="inSk-jIxrQEElIWcF" cm:name="testeeslFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ipVJJcF_GrJnHaIe1" cm:class="ps:children">
+        <cm:relation cm:id="i3NjqKEcBj1Pr_y3A" cm:type="ps:alternative" cm:range="1">
+          <cm:target cm:id="ip1h7r5pRUdTv-dew">./ihaO1VbR7V5PZdjh6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMZaUCP0_DFV5qDwm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iZ-dfMVtWTP_7JTSs" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwgofbiXmJDDEOhn9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_mECa3Ec4yf_josA" cm:type="ps:datetime">2025-07-08T03:49:43.158Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itcY5snVfKGRVn_pR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iVO3NniKF8gflc7Ep" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKGqfQIeN76VQM-QV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iPBzFsZAHPD9iGhjD" cm:type="ps:datetime">2025-07-10T01:21:14.027Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iwRmj5C_52jCbuovf" cm:name="WiFi" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iZhljuY8P2hXrNvfW" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="ikfD6zQzTne4VNJ4U" cm:class="ps:parents">
+        <cm:relation cm:id="ia6zeQLu1MI-s6ziS" cm:type="ps:parent">
+          <cm:target cm:id="iSWFuWthlCr9z2pof">./ihaO1VbR7V5PZdjh6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iX2TI-JPyHQWT6SD7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iINVZUheKMq90tqfv" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1q0EyT8o5T8A8YFP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8379awvjqMVyfD8r" cm:type="ps:datetime">2025-07-10T01:18:00.061Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWLllFo05CZlizZ-X" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ipLQiAz6oqjPp4-dl" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ik8qHPwOXEl5EXtlI" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilfUN5s__MlX-P7EP" cm:type="ps:datetime">2025-07-10T01:18:00.061Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iMxvydTkFtPmv3IYr" cm:mimetype="text/plain" cm:encoding="utf-8">WiFi</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iM3Lccm6hEVECn7Rd" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Feature de comunica&amp;ccedil;&amp;atilde;o sem fio via WiFi.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="ihaO1VbR7V5PZdjh6" cm:name="Comunicacao" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iFitZS0MMHGFF0MkR" cm:class="ps:parents">
+        <cm:relation cm:id="ijxnjTq3y75Y2UaRg" cm:type="ps:parent">
+          <cm:target cm:id="iYferlmbhjhnwWDq_">./inSk-jIxrQEElIWcF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i2KZOGK0Z-3CwoxCY" cm:class="ps:children">
+        <cm:relation cm:id="ii2qY51EWkQfWrUZf" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="i_S6Tyanfa2IkjSSo">./iwRmj5C_52jCbuovf</cm:target>
+          <cm:target cm:id="iLbt5E6yrl3nP4xxq">./iWdRInd1bdbxJ970O</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5w8W-vRInEp1KOg3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i5ESVynXAit41edKP" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="icS6GZhIbjmms6kTT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iuVyoIyAkAGTIRkfF" cm:type="ps:datetime">2025-07-10T01:21:14.028Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYp86XOp_Savrn2GJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iA0-gXNRayYLV1rDV" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixM63bj6qdtw63J6t" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iaeRBjnglS467f28e" cm:type="ps:datetime">2025-07-10T01:23:01.788Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i9L31lDNxXDKqhRn8" cm:mimetype="text/plain" cm:encoding="utf-8">Comunicacao</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iVhhBKhx3FmWnCNt6" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Tipo de tecnologia de comunica&amp;ccedil;&amp;atilde;o utilizada.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iWdRInd1bdbxJ970O" cm:name="ZigBee" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ipQ1t4396x74lHIwI" cm:class="ps:parents">
+        <cm:relation cm:id="ixZeqmuhxRg4-GiaZ" cm:type="ps:parent">
+          <cm:target cm:id="iyuvd0s_UAmsy7s9X">./ihaO1VbR7V5PZdjh6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i1Wx2IB8R2vly5Oum" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ik0PM7JlLROUmWMcI" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSD7uSK8Whsa1Ouwo" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iNvihzU_ud9QRI_hW" cm:type="ps:datetime">2025-07-10T01:23:01.788Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7ycoE6i5bbPaN97n" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iYbYA57YrictpVF9v" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEi46oxnEjy-d3Iir" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i1OBp69TI9ZOZzzmh" cm:type="ps:datetime">2025-07-10T01:23:01.788Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iLsbyMbJkZSM-DGKC" cm:mimetype="text/plain" cm:encoding="utf-8">ZigBee </cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="i3DuL2FQgIG8nJmC0" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Tecnologia de comunica&amp;ccedil;&amp;atilde;o baseada em ZigBee.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
