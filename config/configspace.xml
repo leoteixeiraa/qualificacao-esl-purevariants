@@ -25,7 +25,7 @@
 </cm:element>
 <cm:element cm:id="ixiYhsB-WInXvqevQ" cm:name="irhrZSJBduEVZlpUP" cm:type="ps:used" cm:class="ps:model"><cm:properties><cm:property cm:id="i6qMSmnXwxTFzoJJG" cm:type="ps:string" cm:name="model_type"><cm:constant cm:id="iXVzTktsEwKw8QoQl" cm:type="ps:string">ps:fm</cm:constant>
 </cm:property>
-<cm:property cm:id="imBXjNMPBf1BrfWLY" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="iWQHluVtHo0HKCcm0" cm:type="ps:path">$(PROJECT)/WeatherStationFeatures.xfm</cm:constant>
+<cm:property cm:id="imBXjNMPBf1BrfWLY" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="iWQHluVtHo0HKCcm0" cm:type="ps:path">$(PROJECT)/ESL.xfm</cm:constant>
 </cm:property>
 <cm:property cm:id="iDV0kfO0dOcX8fkul" cm:type="ps:integer" cm:name="model_rank"><cm:constant cm:id="iySiqYJNNlRLecDaE" cm:type="ps:integer">1</cm:constant>
 </cm:property>

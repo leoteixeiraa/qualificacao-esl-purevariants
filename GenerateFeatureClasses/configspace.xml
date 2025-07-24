@@ -30,7 +30,7 @@
 </cm:element>
 <cm:element cm:id="i7U3l59aKRWpbKiut" cm:name="irhrZSJBduEVZlpUP" cm:type="ps:used" cm:class="ps:model"><cm:properties><cm:property cm:id="if3zHWN9HVXXcEdW9" cm:type="ps:string" cm:name="model_type"><cm:constant cm:id="iDuDEYMHdHVTTR1CP" cm:type="ps:string">ps:fm</cm:constant>
 </cm:property>
-<cm:property cm:id="imMk-lt2pf6eezRL6" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="i7hMhCkUOg_Pdk_Xn" cm:type="ps:path">$(PROJECT)/WeatherStationFeatures.xfm</cm:constant>
+<cm:property cm:id="imMk-lt2pf6eezRL6" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="i7hMhCkUOg_Pdk_Xn" cm:type="ps:path">$(PROJECT)/ESL.xfm</cm:constant>
 </cm:property>
 <cm:property cm:id="iHBKlxRcKJdbVrTN2" cm:type="ps:integer" cm:name="model_rank"><cm:constant cm:id="i5M6nA_UPMsiI_wVW" cm:type="ps:integer">1</cm:constant>
 </cm:property>

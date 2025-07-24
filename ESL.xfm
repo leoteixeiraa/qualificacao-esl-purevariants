@@ -3,7 +3,7 @@
   <cm:head>
     <cm:properties>
       <cm:property cm:id="iyn-PoMTj-OPHNk-E" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
-        <cm:constant cm:id="iX6QyHRA3xDHBtJWG" cm:type="ps:string">WeatherStationFeatures</cm:constant>
+        <cm:constant cm:id="iX6QyHRA3xDHBtJWG" cm:type="ps:string">ESL</cm:constant>
       </cm:property>
       <cm:property cm:id="izAqjJEpX5dweKOXz" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
         <cm:constant cm:id="iNXAUW9o-nssD1l5E" cm:type="ps:string">maurice_w</cm:constant>

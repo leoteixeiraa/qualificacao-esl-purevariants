@@ -4,10 +4,18 @@
  * and add a JavaScript Transformation Module with this JavaScript.
  */
 
+
 /**
  * Transformation module instance
  */
 var pv_module = module_instance();
+
+// Arquivo de log para registrar as features selecionadas
+var logFile = new java.io.FileWriter(new java.io.File(pv_module.getOutput(), "debug.log"), true);
+function log(msg) {
+	logFile.write(msg + "\n");
+	logFile.flush();
+}
 
 /**
  * Do the work of this JavaScript transformation module
@@ -18,23 +26,36 @@ function work() {
 	status.setMessage(Constants().EMPTY_STRING);
 	status.setStatus(ClientTransformStatus().OK);
 
-	try {
-		var models = pv_module.getModels();
-		for (var index = 0;index < models.length; index++) {
-			var model = new IPVModel(models[index]);
-			// we only want to process Feature Models
-			if (model.getType().equals(ModelConstants().CFM_TYPE)
-					|| model.getType().equals(ModelConstants().FM_TYPE)) {
-				var rootid = model.getElementsRootID();
-				createFeatureClass(model.getElementWithID(rootid));
-			}
+try {
+	var models = pv_module.getModels();
+	for (var index = 0; index < models.length; index++) {
+		var model = new IPVModel(models[index]);
+		// we only want to process Feature Models
+		if (model.getType().equals(ModelConstants().CFM_TYPE)
+			|| model.getType().equals(ModelConstants().FM_TYPE)) {
+			var rootid = model.getElementsRootID();
+			var rootElement = model.getElementWithID(rootid);
+			logSelectedFeatures(rootElement);
+			createFeatureClass(rootElement);
 		}
-	} catch (e) {
-		// If something went wrong, catch error and return error status with
-		// specific error message.
-		status.setMessage(e.toString());
-		status.setStatus(ClientTransformStatus().ERROR);
 	}
+} catch (e) {
+	// If something went wrong, catch error and return error status with
+	// specific error message.
+	status.setMessage(e.toString());
+	status.setStatus(ClientTransformStatus().ERROR);
+}
+/**
+ * Log features selected recursively
+ * @param {IPVElement} element
+ */
+function logSelectedFeatures(element) {
+	log("Feature selecionada: " + element.getVName());
+	var iter = element.getChildren().iterator();
+	while (iter.hasNext()) {
+		logSelectedFeatures(iter.next());
+	}
+}
 	// if no error occurred return OK status
 	return status;
 }
