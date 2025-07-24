@@ -226,11 +226,11 @@
           <cm:constant cm:id="id_IB1bv7_TNUT8tp" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iCZjhW8d7X28ncE0_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="i7x4MRHSFqpu72n-I" cm:type="ps:datetime">2025-07-24T03:13:45.892Z</cm:constant>
+          <cm:constant cm:id="i7x4MRHSFqpu72n-I" cm:type="ps:datetime">2025-07-24T04:09:26.212Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="ikw6jfIy8oJX0YcAB" cm:mimetype="text/plain" cm:encoding="utf-8">Screen Type</cm:mimedesc>
+        <cm:mimedesc cm:id="ikw6jfIy8oJX0YcAB" cm:mimetype="text/plain" cm:encoding="utf-8">ScreenType</cm:mimedesc>
       </cm:vname>
     </cm:element>
     <cm:element cm:id="iaH7q5RkP9_hy30W7" cm:name="OLED" cm:type="ps:feature" cm:class="ps:feature">
