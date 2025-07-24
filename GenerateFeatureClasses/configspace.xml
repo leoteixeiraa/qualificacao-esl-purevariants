@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="i4kuG9UMRBq44gVf5" cm:version="1.2" cm:type="ps:configspace"><cm:head><cm:properties><cm:property cm:id="iYdFjFN60_W0Ibmiv" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType"><cm:constant cm:id="iK1YM3_uyrgb0J6Xc" cm:type="ps:mimetype">text/html</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:head>
+<cm:elements cm:rootid="iK8-Kj68-CGBgygu-"><cm:element cm:id="iK8-Kj68-CGBgygu-" cm:class="ps:lookup"><cm:relations cm:id="ijtsEmUZNJX7hJPy_" cm:class="ps:models"><cm:relation cm:id="iOjdYyY6dOvAYElmz" cm:type="ps:used"><cm:target cm:id="i3X3S44saVEYDiGb3">./i7U3l59aKRWpbKiut</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ioTR1Nf9zJ9qBs4hU" cm:type="ps:path" cm:name="module_base"><cm:constant cm:id="i4Mdd1u6K3D_Y_Rd4" cm:type="ps:path">$(WORKSPACE)</cm:constant>
+</cm:property>
+<cm:property cm:id="iP5SIlQHBrZV-8Fn5" cm:type="ps:path" cm:name="input_url"><cm:constant cm:id="inMzQrit-OV0AIj70" cm:type="ps:path">$(PROJECT)/input</cm:constant>
+</cm:property>
+<cm:property cm:id="ilR6jeGPbHxBAgbq7" cm:type="ps:path" cm:name="output_url"><cm:constant cm:id="iwoj8yMu_IweyMsvI" cm:type="ps:path">$(PROJECT)/output/$(VARIANT)</cm:constant>
+</cm:property>
+<cm:property cm:id="iJlWxhagq6CuvFxtu" cm:type="ps:file" cm:name="transform_log"><cm:constant cm:id="iuQTUPDxuK15uIFp8" cm:type="ps:file">$(OUTPUT)/$(VARIANT).log</cm:constant>
+</cm:property>
+<cm:property cm:id="ierpS6jbUzadTqiRf" cm:type="ps:path" cm:name="transform_module"><cm:constant cm:id="iWqJ972OKDf2iuJua" cm:type="ps:path">$(PROJECT)/GenerateFeatureClasses/moduleconfig.xml</cm:constant>
+</cm:property>
+<cm:property cm:id="iKmlx-FhSXtRoP1Be" cm:type="ps:string" cm:name="clear_dir"><cm:constant cm:id="i6zjiYRISOZuifz12" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="iwEDuzXzvHQ1YTf9U" cm:type="ps:string" cm:name="conf_clear_dir"><cm:constant cm:id="ifYrXMF8hY0vhyXGb" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="issVnLPnYdLGwLS3H" cm:type="ps:string" cm:name="create_dir"><cm:constant cm:id="ii-G_82JXPT15-WCH" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="iyxIyMx_fVfStx_Wq" cm:type="ps:string" cm:name="conf_create_dir"><cm:constant cm:id="ifdcjLCDsuGprUYCv" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="iCT8oIufZXEuTFk8J" cm:type="ps:string" cm:name="recover"><cm:constant cm:id="i--m-koYdIz-KDJsH" cm:type="ps:string">true</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:element>
+<cm:element cm:id="i7U3l59aKRWpbKiut" cm:name="irhrZSJBduEVZlpUP" cm:type="ps:used" cm:class="ps:model"><cm:properties><cm:property cm:id="if3zHWN9HVXXcEdW9" cm:type="ps:string" cm:name="model_type"><cm:constant cm:id="iDuDEYMHdHVTTR1CP" cm:type="ps:string">ps:fm</cm:constant>
+</cm:property>
+<cm:property cm:id="imMk-lt2pf6eezRL6" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="i7hMhCkUOg_Pdk_Xn" cm:type="ps:path">$(PROJECT)/WeatherStationFeatures.xfm</cm:constant>
+</cm:property>
+<cm:property cm:id="iHBKlxRcKJdbVrTN2" cm:type="ps:integer" cm:name="model_rank"><cm:constant cm:id="i5M6nA_UPMsiI_wVW" cm:type="ps:integer">1</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:element>
+</cm:elements>
+</cm:consulmodel>
