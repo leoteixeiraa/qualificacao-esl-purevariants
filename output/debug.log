@@ -1,8 +1,5 @@
-Feature selecionada: WeatherMonitor
-Feature selecionada: Output
-Feature selecionada: LCD
-Feature selecionada: PC Data transfer
-Feature selecionada: Protocol
-Feature selecionada: UDPoverSLIPProto
-Feature selecionada: Sensors
-Feature selecionada: Temperature
+Feature selecionada: ESL Solution
+Feature selecionada: Web Application
+Feature selecionada: Trace
+Feature selecionada: ESL Installation Device
+Feature selecionada: Trace

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="irhrZSJBduEVZlpUP" cm:version="1.8" cm:type="ps:fm">
   <cm:head>
     <cm:properties>
@@ -20,27 +19,73 @@
     </cm:properties>
   </cm:head>
   <cm:elements cm:rootid="iCyKzd5DGk6-wzau9">
-    <cm:element cm:id="iCyKzd5DGk6-wzau9" cm:name="WeatherMonitor" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+    <cm:element cm:id="iCyKzd5DGk6-wzau9" cm:name="ESLSolution" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="ivWz-1VLQ6Fu-3eoH" cm:class="ps:children">
-        <cm:relation cm:id="iJ6r9Ib6Ix0KSTLqz" cm:type="ps:optional">
-          <cm:target cm:id="i08VzOFv8j5ShqWuy">./iNtZJH0NDDPD87Ec_</cm:target>
+        <cm:relation cm:id="iZLt-t7cCdmH_H59w" cm:type="ps:mandatory" cm:range="n">
         </cm:relation>
-        <cm:relation cm:id="iZLt-t7cCdmH_H59w" cm:type="ps:mandatory">
-          <cm:target cm:id="ijnjdHBt6a2UDE9Fd">./ighRQuFfPbrQGL1io</cm:target>
-          <cm:target cm:id="iFQ8W-P0FcO0X-LKJ">./iy3AF7oP4TtztNid3</cm:target>
+        <cm:relation cm:id="iMvjzm1sAdn6Dh2f6" cm:type="ps:or">
+          <cm:target cm:id="izfBxcKw6qdsuuz83">./iNtZJH0NDDPD87Ec_</cm:target>
+          <cm:target cm:id="iggEqQw-iG9nbUUvZ">./iKT1q8NJAwLbv0qUQ</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
+        <cm:property cm:id="iFi7e9uJG_s5AFaLY" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ingA1u26kGKAjkZyS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDHOcPwMmetzr543M" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iiodX6qbXmPWehCZV" cm:type="ps:datetime">2025-07-24T02:45:39.173Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iquVkU03iQRVPVQi-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iOoMVKTuopk55UyPI" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iA0g_PkP_UzvHta9A" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i6JmfJpSpITTXeS4m" cm:type="ps:datetime">2025-07-24T02:57:10.689Z</cm:constant>
+        </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="iE-jf7nocrpwI1OPi" cm:mimetype="text/plain" cm:encoding="utf-8">WeatherMonitor</cm:mimedesc>
+        <cm:mimedesc cm:id="iE-jf7nocrpwI1OPi" cm:mimetype="text/plain" cm:encoding="utf-8">ESL Solution</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="ibfX87B2wrKgAgkUm" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Weather stations are used to acquire data about the&amp;nbsp;current weather condtions, this data is used to make precise weather forecasts. Weather Stations are also important for studying climate and our weather.&lt;/p&gt;&lt;p&gt;This is the basic feature of our weather station example. It provides all needed basic functionality. This station has three main features, one of them optionally. So every weather station has at least one sensor for measuring weather data and&amp;nbsp; at least one way to communicate with a user or a PC.&lt;/p&gt;&lt;p&gt;The application is capable to measure wind speed, temperature or air pressure. The application either can show measurement values on a LCD or transfer the values to a PC.&lt;/p&gt;</cm:mimedesc>
+        <cm:mimedesc cm:id="ibfX87B2wrKgAgkUm" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Weather stations are used to acquire data about the&amp;nbsp;current weather condtions, this data is used to make precise weather forecasts. Weather Stations are also important for studying climate and our weather.&lt;/p&gt;
+&lt;p&gt;This is the basic feature of our weather station example. It provides all needed basic functionality. This station has three main features, one of them optionally. So every weather station has at least one sensor for measuring weather data and&amp;nbsp; at least one way to communicate with a user or a PC.&lt;/p&gt;
+&lt;p&gt;The application is capable to measure wind speed, temperature or air pressure. The application either can show measurement values on a LCD or transfer the values to a PC.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iNtZJH0NDDPD87Ec_" cm:name="WebApplication" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="i8Mlw69CBGrgMzit5" cm:class="ps:children">
+        <cm:relation cm:id="io00n_HvmcIRWJ3z9" cm:type="ps:or">
+          <cm:target cm:id="iCCBWMnplXBxMqi5Z">./i0DRYgfQWrO58jkO4</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iSoFXopFRDtOU5Xy0" cm:class="ps:parents">
+        <cm:relation cm:id="iZ537waCg_9o1Ldln" cm:type="ps:parent">
+          <cm:target cm:id="ijW1AQC9GSp0O86sn">./iCyKzd5DGk6-wzau9</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iM3SCp8SP_BrpRMNi" cm:type="ps:string" cm:fixed="true" cm:name="state">
+          <cm:constant cm:id="ix1Uh-DtIwhhV662A" cm:type="ps:string">alpha</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWs22sQHDez0OnbLm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="inx31z09VEEyKcmZh" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igDbmT5GZmkLqmAVj" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iiZOTEu1tLXPw7kt0" cm:type="ps:datetime">2025-07-24T02:45:39.173Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUY5o5qGswh4YRxL4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ijHbO2WuTRSo7Ahok" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5x6H0RQDpQU4gjJW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iX3nbh7zN-RXVqH6B" cm:type="ps:datetime">2025-07-24T02:55:07.661Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iRTPBKNqNg_wvwXnz" cm:mimetype="text/plain" cm:encoding="utf-8">Web Application</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="i2idMERR9biywNvV_" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Optional Feature.&lt;/p&gt;
+&lt;p&gt;Debug capapbility can be added to application. This allows you to easier search for bugs and remove them.&lt;/p&gt;
+&lt;p&gt;Debug capability is not usefull for the end user, so you can remove it from your product.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
     <cm:element cm:id="i0DRYgfQWrO58jkO4" cm:name="Trace" cm:type="ps:feature" cm:class="ps:feature">
@@ -53,12 +98,6 @@
       </cm:relations>
       <cm:relations cm:id="iYy1W5uf-83bUTB5C" cm:class="ps:dependencies">
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iqt8bTswTnMhGPRQl" cm:mimetype="text/plain" cm:encoding="utf-8">Trace</cm:mimedesc>
       </cm:vname>
@@ -67,348 +106,73 @@
         <cm:mimedesc cm:id="iVg6c2ImdP6czJ4L9" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Support for tracing the control flow. Shows you where the error occured and which parts of your application are involved. You can see the whole way&amp;nbsp;the error took until the first symptoms have shown you, something went wrong.&lt;/p&gt;&lt;p&gt;So&amp;nbsp;you can see which circumstances led to this error and you can easily remove them.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
-    <cm:element cm:id="iNtZJH0NDDPD87Ec_" cm:name="DebuggingSupport" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="iymitWrNrfIWdR3PS" cm:class="ps:parents">
-        <cm:relation cm:id="i1vsUJruugHImmIug" cm:type="ps:parent">
-          <cm:target cm:id="i78p0NEmPVJvpcNn8">./iCyKzd5DGk6-wzau9</cm:target>
+    <cm:element cm:id="il0HA0XyQ6kXmwtwf" cm:name="Trace_1" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iZMtNCNEfZAOLVCdW" cm:class="ps:parents">
+        <cm:relation cm:id="iUe-5FuYnuD-9wESQ" cm:type="ps:parent">
+          <cm:target cm:id="i3oAwc_b4xNbMk4Rn">./iKT1q8NJAwLbv0qUQ</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:relations cm:id="i8Mlw69CBGrgMzit5" cm:class="ps:children">
-        <cm:relation cm:id="io00n_HvmcIRWJ3z9" cm:type="ps:or">
-          <cm:target cm:id="iCCBWMnplXBxMqi5Z">./i0DRYgfQWrO58jkO4</cm:target>
-        </cm:relation>
+      <cm:relations cm:id="ifHumpCikLMnPcKNX" cm:class="ps:children">
+      </cm:relations>
+      <cm:relations cm:id="iza6bPi_DFEAPZKYE" cm:class="ps:dependencies">
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iM3SCp8SP_BrpRMNi" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="ix1Uh-DtIwhhV662A" cm:type="ps:string">alpha</cm:constant>
+        <cm:property cm:id="i9YXJG4kmHpIBOOEA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihkCDhV-dGqFQowYZ" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imbdt8_Gw1QVmoCBR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i7ejUwsXWLCXmhb4k" cm:type="ps:datetime">2025-07-24T02:54:50.255Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iluQSMraUxClmoKg7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iSHrw-PNmqAOxPhwo" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igQasslz9yKryr2cH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i4k-6xx-UFEwx2xog" cm:type="ps:datetime">2025-07-24T02:54:50.255Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="iRTPBKNqNg_wvwXnz" cm:mimetype="text/plain" cm:encoding="utf-8">Debug</cm:mimedesc>
+        <cm:mimedesc cm:id="iANg7TkRHre2NmNr0" cm:mimetype="text/plain" cm:encoding="utf-8">Trace</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="i2idMERR9biywNvV_" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Optional Feature.&lt;/p&gt;&lt;p&gt;Debug capapbility can be added to application. This allows you to easier search for bugs and remove them.&lt;/p&gt;&lt;p&gt;Debug capability is not usefull for the end user, so you can remove it from your product.&lt;/p&gt;</cm:mimedesc>
+        <cm:mimedesc cm:id="i-AfNZ2z_G6gRG48L" cm:mimetype="text/plain" cm:encoding="utf-8">Support for tracing the control flow</cm:mimedesc>
+        <cm:mimedesc cm:id="iOnBFTXpMZ_5qgwRF" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Support for tracing the control flow. Shows you where the error occured and which parts of your application are involved. You can see the whole way&amp;nbsp;the error took until the first symptoms have shown you, something went wrong.&lt;/p&gt;&lt;p&gt;So&amp;nbsp;you can see which circumstances led to this error and you can easily remove them.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
-    <cm:element cm:id="illHQOy26jl3_LM9B" cm:name="Display" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="i3ePYtHg4VOXuLluR" cm:class="ps:parents">
-        <cm:relation cm:id="iX276QF9mOxEWaYHX" cm:type="ps:parent">
-          <cm:target cm:id="iQIRx-DeN_ZeAkdmU">./ighRQuFfPbrQGL1io</cm:target>
+    <cm:element cm:id="iKT1q8NJAwLbv0qUQ" cm:name="ESLInstallationDevice_1" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iNYlQGpGJOFMK_7j2" cm:class="ps:children">
+        <cm:relation cm:id="iOWJMa2_OUM73g4ht" cm:type="ps:or">
+          <cm:target cm:id="idLlYr3q4jDXvEnvj">./il0HA0XyQ6kXmwtwf</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:relations cm:id="iZ9pPFX6FvAbRYViZ" cm:class="ps:children">
+      <cm:relations cm:id="i9QBzpcax5waGa-dg" cm:class="ps:parents">
+        <cm:relation cm:id="iX-LVeLhzWDi6JEhn" cm:type="ps:parent">
+          <cm:target cm:id="ig968fU1JZJV7bo2X">./iCyKzd5DGk6-wzau9</cm:target>
+        </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="i1GT51-npFgZOqy6Z" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="ii6aSxf3vWMQEgEyf" cm:type="ps:string">release candidate 1</cm:constant>
+        <cm:property cm:id="iSscNt717aIRGmLQk" cm:type="ps:string" cm:fixed="true" cm:name="state">
+          <cm:constant cm:id="iavrs-JwhysjcFJEw" cm:type="ps:string">alpha</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifFLziEN6jJTwYNOv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iC7ogMWMsxBiUqjRd" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWclFhgvbeqjpSCAW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iuKUkYWUzNTurdIGg" cm:type="ps:datetime">2025-07-24T02:54:50.255Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEd4jCYBq27i9GSog" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i7LUEgmhTmn8G09I7" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYZT7y4GPOet0r9nt" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikPcsQVFwghdVEFKp" cm:type="ps:datetime">2025-07-24T02:54:50.255Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="iFZUcwawjVFV6nKLB" cm:mimetype="text/plain" cm:encoding="utf-8">LCD</cm:mimedesc>
+        <cm:mimedesc cm:id="i5irFHXM0t_HK_cFj" cm:mimetype="text/plain" cm:encoding="utf-8">ESL Installation Device</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="iAwolueq5m99imFnM" cm:mimetype="text/plain" cm:encoding="utf-8">The weather data monitor has a connected display</cm:mimedesc>
-        <cm:mimedesc cm:id="i_Ax0rOkzpr4LfKjv" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This Feature provides support for a build in LCD display at the weather station.&lt;/p&gt;&lt;p&gt;Cause energy saving is a important thing at weather stations, which have to operate for a long time without power connection, the displays are very simple. Only 60 signs in 3 rows can be displayed.&lt;/p&gt;&lt;p&gt;And the build in displays are able to use some powersaving techniques, as switching of the disply, if not used, or dimming the backlight, if there is enough light.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="i4v0qO9UgDm9rNlIw" cm:name="USBLine" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="iNkp_VdMM1u9ib41r" cm:class="ps:parents">
-        <cm:relation cm:id="ixrcOA6uZB_5tQ8dm" cm:type="ps:parent">
-          <cm:target cm:id="i6G0peIHemg_ml60J">./i-azPGzB98fvtWSw0</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iA7grmAxqGgN-D5us" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iwkEwhHKgAcCZFwmb" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="i1E2aeuFRqfowN2Ru" cm:type="ps:string">released</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iLA3Ig4MA0pkvV4pD" cm:mimetype="text/plain" cm:encoding="utf-8">USB</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="i5COtzHLhUyYUR-7E" cm:mimetype="text/plain" cm:encoding="utf-8">PC is connected via USB cable</cm:mimedesc>
-        <cm:mimedesc cm:id="ilmDg03_PjCEHKQc8" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;A USB connector. This feature provides possibility to use a USB interface. This can be used to directly connect the weather station to a PC. To use this interface a serial transport protocol is needed.&lt;/p&gt;&lt;p&gt;The protocol is not part of this feature. Feature "Protocol" is responsible for the transport protocols.&lt;/p&gt;&lt;p&gt;The USB interface&amp;nbsp;is much faster than the RS232 interface, we can reach abouit 12 mBit/s. But the maximum length of the USB cable is 5m, so it's much shorter than the cable of the RS232 interface.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="ia7n3y4kHC-fndw60" cm:name="RS232Line" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="immzQrUG9qHnD9bHc" cm:class="ps:parents">
-        <cm:relation cm:id="ixiCjMvPRWwAxjB9n" cm:type="ps:parent">
-          <cm:target cm:id="ib_9zha8EUH3rN9jt">./i-azPGzB98fvtWSw0</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="icpJ-R1-oNHCPTVIX" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="ircam7k1GJn2yfPc7" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="iaD7EPJP78DhM7qDk" cm:type="ps:string">released</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="ijirtnItxBrIOnzDC" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Seriell</cm:mimedesc>
-        <cm:mimedesc cm:id="iWVu9ePiKfYuEonDy" cm:mimetype="text/plain" cm:encoding="utf-8">Serial</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="iw3lV5tSCUp0rTKbx" cm:mimetype="text/plain" cm:encoding="utf-8">PC is connected via an RS232 serial line</cm:mimedesc>
-        <cm:mimedesc cm:id="i-Mo_wHj-O-37jf6Y" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature enables the connection of the weather station via interface RS232 to a PC. This is a serial interface, so a serial transport protocol is needed to use this interface.&lt;/p&gt;&lt;p&gt;The protocol is not part of this feature. Feature "Protocol" is responsible for the transport protocols.&lt;/p&gt;&lt;p&gt;You can use cables with a maximum legth of 15m, the maximum data rate is 19,2 bit/s is 15m cable length. With less then 2m cable legth we can reach a data rate of 115,2 bit/s.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iexJkRhrUDFVGf9jZ" cm:name="SyncNGoProto" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="i1L2q2s1DXy4HMZxI" cm:class="ps:parents">
-        <cm:relation cm:id="iGgcYwKx0Zd3jC2x-" cm:type="ps:parent">
-          <cm:target cm:id="izIZWxyU977lmd8iO">./iUpDZC6LtRGFzQ8g-</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iHxKfRWWpsO3gmHZB" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="ib8CCdds0MZGKgXgq" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="iQe6ok9IOowxfLBOs" cm:type="ps:string">beta</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="ic1krn8fKQ5dYTqJ4" cm:mimetype="text/plain" cm:encoding="utf-8">SyncNGoProto</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="iExMLh7Rp69ZfSNE7" cm:mimetype="text/plain" cm:encoding="utf-8">Communicate with simple self-made protocol</cm:mimedesc>
-        <cm:mimedesc cm:id="ixZUOT5AWNyZyjFFq" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature adds our self developed communication protocol.&lt;/p&gt;&lt;p&gt;This protocol is simpler then any standard protocol, so we could optimize it to our weather station needs.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="igenT8V_yxVecEhFw" cm:name="UDPoverSLIPProto" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="i9v1mA2di9b0wFuc1" cm:class="ps:parents">
-        <cm:relation cm:id="iHcyqz9inCW8vFCH1" cm:type="ps:parent">
-          <cm:target cm:id="i7CVHjaJSFGUnZTHE">./iUpDZC6LtRGFzQ8g-</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iG7yZv37TZKFMWmjw" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iphPMmOvBydkbpMxS" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="iM7LHOhbNRVPzKMqr" cm:type="ps:string">alpha</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iQOE-i1nj8exmiv6t" cm:mimetype="text/plain" cm:encoding="utf-8">UDPoverSLIPProto</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="iG5MpUB_RsSb9v3uu" cm:mimetype="text/plain" cm:encoding="utf-8">Communicate with UDP + SLIP protocol</cm:mimedesc>
-        <cm:mimedesc cm:id="iy_I5nSW71A_ibIxr" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature provides a standard communication protocol. It uses a standard User Datagram Protocol.&lt;/p&gt;&lt;p&gt;This is a very simple protocol. This prtocol is used over a Serail Line Internet Protocol. This is a very simple protocol too. But it is not very save. UDP uses checksum for calculating if a message is correct, but it can not correct this message if it is broken. This message has to be resend. And if a message&amp;nbsp;got lost nobody will notice it, cause SLIP has no error detection.&lt;/p&gt;&lt;p&gt;UDP and SLIP have only a small overhead for adressing.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iUpDZC6LtRGFzQ8g-" cm:name="Protocol" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
-      <cm:relations cm:id="i8VELofvTjE3eqtrU" cm:class="ps:parents">
-        <cm:relation cm:id="iSG74ra2jQ_NqPTcA" cm:type="ps:parent">
-          <cm:target cm:id="izp1PpCMqrwqCB8CJ">./i-azPGzB98fvtWSw0</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iJbdXXv7htSeAZEA5" cm:class="ps:children">
-        <cm:relation cm:id="istYhV5AHhrSFgV1o" cm:type="ps:alternative">
-          <cm:target cm:id="ijI0jGqxsrl1muF9U">./iexJkRhrUDFVGf9jZ</cm:target>
-          <cm:target cm:id="irUNGRhCIwJEUhM_r">./igenT8V_yxVecEhFw</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iJgUbwisrdL3vWVSc" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Protokoll</cm:mimedesc>
-        <cm:mimedesc cm:id="itkAJYPzS61XCP6w0" cm:mimetype="text/plain" cm:encoding="utf-8">Protocol</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="injcVXTUKazILRfLw" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Data transfer is using a special protocol. Data transfer have to be save. This weather station is able to send a constant data stream, for real time weather observation.&lt;/p&gt;&lt;p&gt;Two different alternatives can be used. You can use a selfmade protocol, which is not used by any other weatherstation, or you can use a standard USP protocol, which is used over SLIP.&lt;/p&gt;&lt;p&gt;Details are explained in the respective features.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="i-azPGzB98fvtWSw0" cm:name="PCConnection" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="ixkhqK_4EdflP1o2n" cm:class="ps:parents">
-        <cm:relation cm:id="iAdFccVfSiW-Sds-u" cm:type="ps:parent">
-          <cm:target cm:id="i0ZRu2pA7lCbt1o-N">./ighRQuFfPbrQGL1io</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="ibYwgjrBHIXNVMg4_" cm:class="ps:children">
-        <cm:relation cm:id="isAcaK4ctEo1FdA1K" cm:type="ps:alternative">
-          <cm:target cm:id="iNnUtP01wHiju9Hgl">./i4v0qO9UgDm9rNlIw</cm:target>
-          <cm:target cm:id="iQT-xRlF9l8ETpULM">./ia7n3y4kHC-fndw60</cm:target>
-        </cm:relation>
-        <cm:relation cm:id="iwhM1gwIcSdKvM9CP" cm:type="ps:mandatory">
-          <cm:target cm:id="imQRU3CAfsbULF3NU">./iUpDZC6LtRGFzQ8g-</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="i0lt2EiV_8sO7Y5Xt" cm:class="ps:dependencies">
-        <cm:relation cm:id="imaSy_t_WRb_Fkn-N" cm:type="ps:conflicts">
-          <cm:target cm:id="iJrkUbWJFax883rF_">./i0DRYgfQWrO58jkO4</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="i5ugefhjg-fUJM9Cx" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Datentransfer</cm:mimedesc>
-        <cm:mimedesc cm:id="iUwGAgRGicjhwRojQ" cm:mimetype="text/plain" cm:encoding="utf-8">PC Data transfer</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="iiFZGBNsJgDnRvcTU" cm:mimetype="text/plain" cm:encoding="utf-8">A communication channel to a PC</cm:mimedesc>
-        <cm:mimedesc cm:id="i7suOmHJSYRSJ_a4F" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature provides this communication capability. Using this feature&amp;nbsp;enables the possibility of connecting to a PC and controling the whole weather station&amp;nbsp;from a PC.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Two connection types can be used, USB or RS232. Both interface can be used to connect the weather station directly to a PC.&lt;/p&gt;&lt;p&gt;But these features are alternatives, they can not be used together.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="ighRQuFfPbrQGL1io" cm:name="OutputSupport" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
-      <cm:relations cm:id="iZn5c-64OqUcLsB3q" cm:class="ps:parents">
-        <cm:relation cm:id="it71se9PL1M7nzLBO" cm:type="ps:parent">
-          <cm:target cm:id="iVBB5MV6YiyEA6Bas">./iCyKzd5DGk6-wzau9</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iTKUQi5WcVj3KGo7i" cm:class="ps:children">
-        <cm:relation cm:id="i-wbE0_V36LzQh2K_" cm:type="ps:or">
-          <cm:target cm:id="iZxnX23jC1HTlZ1gd">./illHQOy26jl3_LM9B</cm:target>
-          <cm:target cm:id="iQN41PVDty4MRWiC4">./i-azPGzB98fvtWSw0</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="ic0CuF-aG2iL00dd5" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Ausgabe</cm:mimedesc>
-        <cm:mimedesc cm:id="iynCSJ8tayPeH9fDx" cm:mimetype="text/plain" cm:encoding="utf-8">Output</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="igltE0wjkgiHFalI2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Measurement data output. Provides capability to pass measured values to the user or other system components.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iYB7oKs7g1NpAkpDv" cm:name="AirPressureSensor" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="iy-1D7EcBokXvxf5b" cm:class="ps:parents">
-        <cm:relation cm:id="i1miIhdvx5EO0AMp_" cm:type="ps:parent">
-          <cm:target cm:id="ijNJFEJ_wZ770SYU_">./iy3AF7oP4TtztNid3</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iYaaEMvZ2KERqTG3w" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iAmvBrNop6lmHhO8b" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="ij-k-E_VWazKClOHI" cm:type="ps:string">released</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="ijOu3xYrznaLniD3A" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Druck</cm:mimedesc>
-        <cm:mimedesc cm:id="iXEHSv-PP5btpiONE" cm:mimetype="text/plain" cm:encoding="utf-8">Pressure</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="inGWDqrXf9g7DLu_N" cm:mimetype="text/plain" cm:encoding="utf-8">Show measurements of the air pressure sensor</cm:mimedesc>
-        <cm:mimedesc cm:id="ijdd6dCDtpQIM5ozu" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature adds support for a air pressure sensor. Every sensor for measuring the air pressure can be used with the weather station.&lt;/p&gt;&lt;p&gt;Measuring interval can be choosen between 1 second and once a week.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iMoH7FnpkLE2Dt4o1" cm:name="TemperatureSensor" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
-      <cm:relations cm:id="iQwXHgDhrJq4awkhH" cm:class="ps:parents">
-        <cm:relation cm:id="iILX4oZN7s5O8LjQG" cm:type="ps:parent">
-          <cm:target cm:id="iQu7OVAAnY_BUedNF">./iy3AF7oP4TtztNid3</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iL686uzhbgRhVlSce" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iyq4GpWwoP0PzFB1C" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="idFL_GlgInJ4ZysDr" cm:type="ps:string">released</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iamxd24Vr4H1R9PuD" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Temperatur</cm:mimedesc>
-        <cm:mimedesc cm:id="ipzp-FThFxRd-slOG" cm:mimetype="text/plain" cm:encoding="utf-8">Temperature</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="ii9RKkDWXVUVEEbIV" cm:mimetype="text/plain" cm:encoding="utf-8">Sensor to measure the temperature.</cm:mimedesc>
-        <cm:mimedesc cm:id="iUU1ya8aEu2plg340" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature enables you to connect temperature sensors to your weather station. The weather&amp;nbsp;station can properly manage to capture temperatures between -40&amp;deg;C and +100&amp;deg;C. Any digital temperature sensor can be used.&lt;/p&gt;&lt;p&gt;Measuring interval can be choosen between 1 second and once a week.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iwJon14ltP_lDRsVK" cm:name="WindSpeedSensor" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="iIB65W7ce-rgHW7F3" cm:class="ps:parents">
-        <cm:relation cm:id="i9tHfhepDn3ulElIS" cm:type="ps:parent">
-          <cm:target cm:id="iy4iYM1j6tdoXhJif">./iy3AF7oP4TtztNid3</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iaEGio0cMW49hEkWA" cm:class="ps:children">
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-        <cm:property cm:id="iMh0VxwpIe4J7B8_p" cm:type="ps:string" cm:fixed="true" cm:name="state">
-          <cm:constant cm:id="ibKUYPWF96Y97Kxk6" cm:type="ps:string">released</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iZderqQhAL1rtLBrG" cm:mimetype="text/plain" cm:encoding="utf-8">Wind</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="iHVTS9nExgy6s4QJz" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature enables support for wind speed sensors. Any digital wind speed sensor can be used.&lt;/p&gt;&lt;p&gt;Measuring interval can be choosen between 1 second and once a week.&lt;/p&gt;&lt;p&gt;Recommend to use for the weather station is a hot wired anemometer.&lt;/p&gt;&lt;p&gt;This anemomter uses a heated wire, which electrical ressistance depends on the temperature of &amp;nbsp;the wire. Wind cools the hot wire, so it's electrical resistance changes. This resistance change can be measured and, depending on how much the wind has cooled down the wire, the wind speed can be calculated.&lt;/p&gt;</cm:mimedesc>
-      </cm:desc>
-    </cm:element>
-    <cm:element cm:id="iy3AF7oP4TtztNid3" cm:name="Sensors" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
-      <cm:relations cm:id="i4yg890VAoVoHdH76" cm:class="ps:parents">
-        <cm:relation cm:id="iOdiOolNtNwvwu_ZX" cm:type="ps:parent">
-          <cm:target cm:id="iDlvDMgASmSE9AVxa">./iCyKzd5DGk6-wzau9</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iQCq8g-aDmoAE-TuT" cm:class="ps:children">
-        <cm:relation cm:id="iTLGTHLq-OkDyahjW" cm:type="ps:or">
-          <cm:target cm:id="iQk34YokyoOrihmpl">./iYB7oKs7g1NpAkpDv</cm:target>
-          <cm:target cm:id="i9hkPdWwLM6rTlLai">./iMoH7FnpkLE2Dt4o1</cm:target>
-          <cm:target cm:id="iSYkNOWtBmodBQo0f">./iwJon14ltP_lDRsVK</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="ir3nhy7wX_70sLoAr" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Messungen</cm:mimedesc>
-        <cm:mimedesc cm:id="iLoYYBSPsvL_dl-jY" cm:mimetype="text/plain" cm:encoding="utf-8">Sensors</cm:mimedesc>
-      </cm:vname>
-      <cm:desc>
-        <cm:mimedesc cm:id="ipnTc7FUSjaoT_O08" cm:mimetype="text/plain" cm:encoding="utf-8">Weather data sensor devices</cm:mimedesc>
-        <cm:mimedesc cm:id="imKZapJECewVMG9Bz" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;This feature provides basic functionality for connecting sensors to the weather station.&lt;/p&gt;&lt;p&gt;Three different types of sensors can be connected to the weather station.&lt;/p&gt;</cm:mimedesc>
+        <cm:mimedesc cm:id="i0cDD3_FmcmleMmSl" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Optional Feature.&lt;/p&gt;
+&lt;p&gt;Debug capapbility can be added to application. This allows you to easier search for bugs and remove them.&lt;/p&gt;
+&lt;p&gt;Debug capability is not usefull for the end user, so you can remove it from your product.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
   </cm:elements>
