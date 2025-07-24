@@ -169,9 +169,12 @@
           <cm:constant cm:id="iV91IX3sjA14vs8B6" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="ifIodH-0TxI_xDyia" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iFit9fDIbmaei8ab1" cm:type="ps:datetime">2025-07-24T03:10:00.354Z</cm:constant>
+          <cm:constant cm:id="iFit9fDIbmaei8ab1" cm:type="ps:datetime">2025-07-24T03:31:49.883Z</cm:constant>
         </cm:property>
       </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="irN0Qh6XQPgoNbws-" cm:mimetype="text/plain" cm:encoding="utf-8">Connective</cm:mimedesc>
+      </cm:vname>
     </cm:element>
     <cm:element cm:id="istIJ6ysnVO8uOR1j" cm:name="PowerSource" cm:type="ps:feature" cm:class="ps:feature">
       <cm:relations cm:id="ipdW_tQiUfg0hKGQ1" cm:class="ps:parents">
@@ -364,9 +367,7 @@
           <cm:target cm:id="iUAhE0Jv5SMpQ6JW7">./idxBOKEXzG8bs4hrB</cm:target>
           <cm:target cm:id="inhy6RrO0zNWcTL14">./i8vJUVxRxiMKYBxdP</cm:target>
           <cm:target cm:id="iaBMtGWOfPoxk95r9">./i9rp81JWINYYYembM</cm:target>
-        </cm:relation>
-        <cm:relation cm:id="iW3NUzIKDjpGVvYA0" cm:type="ps:alternative" cm:range="1">
-          <cm:target cm:id="iVOG-i0j-b5JgJaue">./ik1RS_5Oe87kB47mj</cm:target>
+          <cm:target cm:id="ifscEXCMWa7OUyARk">./ik1RS_5Oe87kB47mj</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -380,14 +381,14 @@
           <cm:constant cm:id="ijetisoP_fXG5S0z3" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iE7w3Br2EK16xkVte" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iXlmet3LJZ1Oa5KWw" cm:type="ps:datetime">2025-07-24T03:20:33.988Z</cm:constant>
+          <cm:constant cm:id="iXlmet3LJZ1Oa5KWw" cm:type="ps:datetime">2025-07-24T03:23:05.879Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iBxeWy9Oe8YmgSneM" cm:mimetype="text/plain" cm:encoding="utf-8">Mobile App Functionalities</cm:mimedesc>
       </cm:vname>
     </cm:element>
-    <cm:element cm:id="izDcfymj03ZAzgw-C" cm:name="Installation_Unistallation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+    <cm:element cm:id="izDcfymj03ZAzgw-C" cm:name="InstallationUnistallation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="i4EtTneQjru8C-jHa" cm:class="ps:parents">
         <cm:relation cm:id="ii-k6AONlclat059b" cm:type="ps:parent">
           <cm:target cm:id="iEA2sPn3dnSk1XCGw">./iAYZPL4ZeNabuxm0T</cm:target>
@@ -404,11 +405,11 @@
           <cm:constant cm:id="iVZf6lr1GAoAN8IV2" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iNJKywO8CZEsBwerU" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iXWZY_5OknYFOVx6E" cm:type="ps:datetime">2025-07-24T03:15:37.087Z</cm:constant>
+          <cm:constant cm:id="iXWZY_5OknYFOVx6E" cm:type="ps:datetime">2025-07-24T03:28:07.947Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="iz8L5N-kiiIvyc4zE" cm:mimetype="text/plain" cm:encoding="utf-8">Installation / Unistallation</cm:mimedesc>
+        <cm:mimedesc cm:id="iz8L5N-kiiIvyc4zE" cm:mimetype="text/plain" cm:encoding="utf-8">InstallationUnistallation</cm:mimedesc>
       </cm:vname>
     </cm:element>
     <cm:element cm:id="idxBOKEXzG8bs4hrB" cm:name="Viewing_Product_Information" cm:type="ps:feature" cm:class="ps:feature">
