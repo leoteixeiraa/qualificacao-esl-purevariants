@@ -1,12 +1,20 @@
+
 /**
- * To set up JavaScript Transformation open configuration space properties
- * and go to "Configuration Space" -> "Transformation Configuration"
- * and add a JavaScript Transformation Module with this JavaScript.
+ * Script de transformação JavaScript para pure::variants
+ *
+ * Este script gera arquivos Java (.java) para cada feature do modelo de configuração.
+ * - Se existir um template customizado para a feature em input/templates, ele é usado.
+ * - Caso contrário, gera um arquivo padrão.
+ * - Todos os arquivos e o log da execução são salvos em uma subpasta única dentro de output.
+ * - O log registra todas as features processadas e o tipo de geração utilizada.
+ *
+ * Para usar: configure este script como módulo de transformação JavaScript no pure::variants.
  */
 
 
+
 /**
- * Transformation module instance
+ * Instância do módulo de transformação do pure::variants
  */
 var pv_module = module_instance();
 
@@ -16,10 +24,26 @@ var pv_module = module_instance();
 
 
 /**
- * Do the work of this JavaScript transformation module
- * @return {ClientTransformStatus} the status of this module method
+ * Função principal executada pelo pure::variants ao rodar a transformação.
+ * Cria uma pasta única para a execução, gera os arquivos Java e registra o log.
+ * @return {ClientTransformStatus} Status da execução da transformação
  */
 function work() {
+	/**
+	 * Escreve uma mensagem no arquivo de log da execução.
+	 * @param {string} msg Mensagem a ser registrada
+	 */
+	/**
+	 * Registra no log todas as features selecionadas, de forma recursiva.
+	 * @param {IPVElement} element Elemento raiz da feature
+	 */
+	/**
+	 * Gera o arquivo Java para uma feature.
+	 * Se existir um template customizado, utiliza o template.
+	 * Caso contrário, gera um arquivo padrão.
+	 * Inclui comentário com o nome da feature pai, se existir.
+	 * @param {IPVElement} element Elemento da feature
+	 */
 	var status = new ClientTransformStatus();
 	status.setMessage(Constants().EMPTY_STRING);
 	status.setStatus(ClientTransformStatus().OK);

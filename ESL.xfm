@@ -131,7 +131,9 @@
         <cm:relation cm:id="ia45a4gE478V0GHwa" cm:type="ps:optional" cm:range="[0,n]">
           <cm:target cm:id="i1hfTlmg7ODjjEspG">./imVNEiJ-Ph1N5ONC0</cm:target>
           <cm:target cm:id="iGdPXj58QPzfiMCzH">./istIJ6ysnVO8uOR1j</cm:target>
-          <cm:target cm:id="iyWkVji9JLplx6CXR">./ivY9PPMUrNXCzHwbf</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="iQduKJZKpHgQM-Uhl" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iE9NmAEwLpSHGTBzb">./ivY9PPMUrNXCzHwbf</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -145,7 +147,7 @@
           <cm:constant cm:id="iFlZ30Rl2GPouof5x" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="ipUDffv3eOEaxVVEA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iTXbQ8zLNc50jF_3o" cm:type="ps:datetime">2025-07-24T03:13:45.891Z</cm:constant>
+          <cm:constant cm:id="iTXbQ8zLNc50jF_3o" cm:type="ps:datetime">2025-07-24T11:44:16.091Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -200,19 +202,19 @@
         <cm:mimedesc cm:id="ipcXn4n6Y73TmEc1Z" cm:mimetype="text/plain" cm:encoding="utf-8">Power Source</cm:mimedesc>
       </cm:vname>
     </cm:element>
-    <cm:element cm:id="ivY9PPMUrNXCzHwbf" cm:name="ScreenType" cm:type="ps:feature" cm:class="ps:feature">
+    <cm:element cm:id="ivY9PPMUrNXCzHwbf" cm:name="ScreenType" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="iYDqiAcpYHpxD2Qs3" cm:class="ps:parents">
         <cm:relation cm:id="ia7F8uPnjKaIYqH9V" cm:type="ps:parent">
           <cm:target cm:id="ifdsWMYLFW8gr84OZ">./iX9ZyWtAE0uESvwKv</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:relations cm:id="iX9zH2s3kzslGBP5G" cm:class="ps:children">
-        <cm:relation cm:id="iDcESYF7L29DKMPcb" cm:type="ps:optional" cm:range="[0,n]">
-          <cm:target cm:id="id6KNWBeVNXnZGKER">./iaH7q5RkP9_hy30W7</cm:target>
-          <cm:target cm:id="itoSWQ9PC4GEg0QlA">./iWw88qrKnwjiaZBvC</cm:target>
-          <cm:target cm:id="i6yKf5RSGCSIntvE2">./iKVREgOUiKi2fjcxb</cm:target>
-          <cm:target cm:id="iNbVoJK34yinTZIbN">./iTGAIyABCasK4LcV7</cm:target>
-          <cm:target cm:id="iUE61nHfZtKcQPBTP">./i0zt7pkj0dNrrHZLx</cm:target>
+        <cm:relation cm:id="iMnW8efTynqOIcVrp" cm:type="ps:alternative" cm:range="1">
+          <cm:target cm:id="iyI1Z3WhWM1ewaZg3">./iaH7q5RkP9_hy30W7</cm:target>
+          <cm:target cm:id="ijN1EJ-v_PRYn467a">./iWw88qrKnwjiaZBvC</cm:target>
+          <cm:target cm:id="icZG8JNpHB4OJHRox">./iTGAIyABCasK4LcV7</cm:target>
+          <cm:target cm:id="iGyFizlTcEda0Xc0i">./i0zt7pkj0dNrrHZLx</cm:target>
+          <cm:target cm:id="i9Mq-aQcyFxCPqBnC">./iKVREgOUiKi2fjcxb</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -226,7 +228,7 @@
           <cm:constant cm:id="id_IB1bv7_TNUT8tp" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iCZjhW8d7X28ncE0_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="i7x4MRHSFqpu72n-I" cm:type="ps:datetime">2025-07-24T04:09:26.212Z</cm:constant>
+          <cm:constant cm:id="i7x4MRHSFqpu72n-I" cm:type="ps:datetime">2025-07-24T11:45:27.964Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>

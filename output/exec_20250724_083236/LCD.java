@@ -1,3 +1,4 @@
+// Parent feature: ScreenType
 public class LCD {
     private String model;
     private int brightness;
