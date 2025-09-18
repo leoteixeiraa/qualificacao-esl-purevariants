@@ -1,4 +1,4 @@
 // Parent feature: Mobile App Functionalities
-public class Displaying ESL Information {
+public class Viewing Product Information {
 
 }

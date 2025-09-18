@@ -1,4 +1,4 @@
 // Parent feature: ESL Solution
-public class Web Application {
+public class Device Type {
 
 }
